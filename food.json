@@ -1,0 +1,1658 @@
+{
+  "name": "Brodo di pollo preparato",
+  "id": 339978,
+  "ncf": 6.25,
+  "facf": null,
+  "isgeneric": true,
+  "isrecipe": false,
+  "synonyms": [],
+  "categories": [
+    {
+      "name": "Brodi e zuppe",
+      "id": 6054
+    }
+  ],
+  "values": [
+    {
+      "id": 5833176,
+      "value": 1.2,
+      "references": [
+        {
+          "id": 9,
+          "citation": "Bundeslebensmittelschlüssel, Karlsruhe, Deutschland",
+          "title": "Unterlagen von Bundeslebensmittelschlüssel, Karlsruhe, Deutschland",
+          "authors": "Bundeslebensmittelschlüssel, Karlsruhe, Deutschland",
+          "typeDescriptor": "File or Database"
+        }
+      ],
+      "component": {
+        "name": "Niacina",
+        "id": 372,
+        "code": "NIA",
+        "group": 6,
+        "unit": 8,
+        "sortorder": 10,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "milligrammi",
+        "id": 8,
+        "code": "mg"
+      },
+      "minimum": 1.197,
+      "maximum": 1.197,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "1.197",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833179,
+      "value": 0.1,
+      "references": [
+        {
+          "id": 18,
+          "citation": "Haco AG, Gümlingen, Schweiz",
+          "title": "Unterlagen von Haco AG, Gümlingen, Schweiz",
+          "authors": "Haco AG, Gümlingen, Schweiz",
+          "typeDescriptor": "Reference type not known"
+        }
+      ],
+      "component": {
+        "name": "Zuccheri",
+        "id": 451,
+        "code": "SUGAR",
+        "group": 4,
+        "unit": 3,
+        "sortorder": 1,
+        "componentsets": [
+          1,
+          2,
+          3
+        ]
+      },
+      "unit": {
+        "name": "grammi",
+        "id": 3,
+        "code": "g"
+      },
+      "minimum": 0.1,
+      "maximum": 0.1,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "0.1",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833178,
+      "value": 400,
+      "references": [
+        {
+          "id": 22,
+          "citation": "Institut für Lebensmittel- und Ernährungswissenschaften, ETH Zürich, Schweiz 1",
+          "title": "Unterlagen von Institut für Lebensmittel- und Ernährungswissenschaften, ETH Zürich, Schweiz 1",
+          "authors": "Institut für Lebensmittel- und Ernährungswissenschaften, ETH Zürich, Schweiz",
+          "typeDescriptor": "Reference type not known"
+        }
+      ],
+      "component": {
+        "name": "Sodio, Na",
+        "id": 367,
+        "code": "NA",
+        "group": 7,
+        "unit": 8,
+        "sortorder": 2,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "milligrammi",
+        "id": 8,
+        "code": "mg"
+      },
+      "minimum": 402,
+      "maximum": 402,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "402",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833181,
+      "value": 0.4,
+      "references": [
+        {
+          "id": 9,
+          "citation": "Bundeslebensmittelschlüssel, Karlsruhe, Deutschland",
+          "title": "Unterlagen von Bundeslebensmittelschlüssel, Karlsruhe, Deutschland",
+          "authors": "Bundeslebensmittelschlüssel, Karlsruhe, Deutschland",
+          "typeDescriptor": "File or Database"
+        }
+      ],
+      "component": {
+        "name": "Vitamina B12 (cobalamina)",
+        "id": 475,
+        "code": "VITB12",
+        "group": 6,
+        "unit": 16,
+        "sortorder": 9,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "microgrammi",
+        "id": 16,
+        "code": "µg"
+      },
+      "minimum": 0.4,
+      "maximum": 0.4,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "0.4",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833180,
+      "value": 98.1,
+      "references": [
+        {
+          "id": 22,
+          "citation": "Institut für Lebensmittel- und Ernährungswissenschaften, ETH Zürich, Schweiz 1",
+          "title": "Unterlagen von Institut für Lebensmittel- und Ernährungswissenschaften, ETH Zürich, Schweiz 1",
+          "authors": "Institut für Lebensmittel- und Ernährungswissenschaften, ETH Zürich, Schweiz",
+          "typeDescriptor": "Reference type not known"
+        }
+      ],
+      "component": {
+        "name": "Acqua",
+        "id": 486,
+        "code": "WATER",
+        "group": 2,
+        "unit": 3,
+        "sortorder": 8,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "grammi",
+        "id": 3,
+        "code": "g"
+      },
+      "minimum": 98.1,
+      "maximum": 98.1,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "98.1",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833169,
+      "value": 0,
+      "references": [],
+      "component": {
+        "name": "Attività di beta-carotene",
+        "id": 46,
+        "code": "CARTBEQ",
+        "group": 6,
+        "unit": 2,
+        "sortorder": 4,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "Betacarotene equivalenti",
+        "id": 2,
+        "code": "µg-BCE"
+      },
+      "minimum": null,
+      "maximum": null,
+      "n": 0,
+      "contrMethodTypes": null,
+      "valueTypeCode": "BE",
+      "contributingvalues": null,
+      "contributingvaluetypes": null,
+      "methodIndicatorCode": "MI0301",
+      "containformula": true,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "T"
+    },
+    {
+      "id": 5833168,
+      "value": 5,
+      "references": [],
+      "component": {
+        "name": "Energia, calorie",
+        "id": 1777,
+        "code": "ENERCC",
+        "group": 1,
+        "unit": 4,
+        "sortorder": 1,
+        "componentsets": [
+          1,
+          2,
+          3
+        ]
+      },
+      "unit": {
+        "name": "chilocalorie (familiare: calorie)",
+        "id": 4,
+        "code": "kcal"
+      },
+      "minimum": null,
+      "maximum": null,
+      "n": 0,
+      "contrMethodTypes": null,
+      "valueTypeCode": "BE",
+      "contributingvalues": null,
+      "contributingvaluetypes": null,
+      "methodIndicatorCode": "MI0712",
+      "containformula": true,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "S"
+    },
+    {
+      "id": 5833171,
+      "value": 0.1,
+      "references": [
+        {
+          "id": 22,
+          "citation": "Institut für Lebensmittel- und Ernährungswissenschaften, ETH Zürich, Schweiz 1",
+          "title": "Unterlagen von Institut für Lebensmittel- und Ernährungswissenschaften, ETH Zürich, Schweiz 1",
+          "authors": "Institut für Lebensmittel- und Ernährungswissenschaften, ETH Zürich, Schweiz",
+          "typeDescriptor": "Reference type not known"
+        }
+      ],
+      "component": {
+        "name": "Amido",
+        "id": 439,
+        "code": "STARCH",
+        "group": 4,
+        "unit": 3,
+        "sortorder": 2,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "grammi",
+        "id": 3,
+        "code": "g"
+      },
+      "minimum": 0.133,
+      "maximum": 0.133,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "0.133",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833170,
+      "value": 0.3,
+      "references": [
+        {
+          "id": 18,
+          "citation": "Haco AG, Gümlingen, Schweiz",
+          "title": "Unterlagen von Haco AG, Gümlingen, Schweiz",
+          "authors": "Haco AG, Gümlingen, Schweiz",
+          "typeDescriptor": "Reference type not known"
+        }
+      ],
+      "component": {
+        "name": "Glucidi, disponibili",
+        "id": 55,
+        "code": "CHO",
+        "group": 2,
+        "unit": 3,
+        "sortorder": null,
+        "componentsets": [
+          1,
+          2,
+          3
+        ]
+      },
+      "unit": {
+        "name": "grammi",
+        "id": 3,
+        "code": "g"
+      },
+      "minimum": 0.333333333333333,
+      "maximum": 0.333333333333333,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "0.333333333333333",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833173,
+      "value": 290,
+      "references": [
+        {
+          "id": 9,
+          "citation": "Bundeslebensmittelschlüssel, Karlsruhe, Deutschland",
+          "title": "Unterlagen von Bundeslebensmittelschlüssel, Karlsruhe, Deutschland",
+          "authors": "Bundeslebensmittelschlüssel, Karlsruhe, Deutschland",
+          "typeDescriptor": "File or Database"
+        }
+      ],
+      "component": {
+        "name": "Cloro, Cl",
+        "id": 64,
+        "code": "CLD",
+        "group": 7,
+        "unit": 8,
+        "sortorder": 3,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "milligrammi",
+        "id": 8,
+        "code": "mg"
+      },
+      "minimum": 289,
+      "maximum": 289,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "289",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833172,
+      "value": 0.1,
+      "references": [
+        {
+          "id": 18,
+          "citation": "Haco AG, Gümlingen, Schweiz",
+          "title": "Unterlagen von Haco AG, Gümlingen, Schweiz",
+          "authors": "Haco AG, Gümlingen, Schweiz",
+          "typeDescriptor": "Reference type not known"
+        }
+      ],
+      "component": {
+        "name": "Acidi grassi, monoinsaturi",
+        "id": 262,
+        "code": "FAMS",
+        "group": 5,
+        "unit": 3,
+        "sortorder": 2,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "grammi",
+        "id": 3,
+        "code": "g"
+      },
+      "minimum": 0.102,
+      "maximum": 0.102,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "0.102",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833175,
+      "value": 0.3,
+      "references": [
+        {
+          "id": 18,
+          "citation": "Haco AG, Gümlingen, Schweiz",
+          "title": "Unterlagen von Haco AG, Gümlingen, Schweiz",
+          "authors": "Haco AG, Gümlingen, Schweiz",
+          "typeDescriptor": "Reference type not known"
+        }
+      ],
+      "component": {
+        "name": "Lipidi, totali",
+        "id": 282,
+        "code": "FAT",
+        "group": 2,
+        "unit": 3,
+        "sortorder": null,
+        "componentsets": [
+          1,
+          2,
+          3
+        ]
+      },
+      "unit": {
+        "name": "grammi",
+        "id": 3,
+        "code": "g"
+      },
+      "minimum": 0.3,
+      "maximum": 0.3,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "0.3",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833174,
+      "value": 2.8,
+      "references": [
+        {
+          "id": 9,
+          "citation": "Bundeslebensmittelschlüssel, Karlsruhe, Deutschland",
+          "title": "Unterlagen von Bundeslebensmittelschlüssel, Karlsruhe, Deutschland",
+          "authors": "Bundeslebensmittelschlüssel, Karlsruhe, Deutschland",
+          "typeDescriptor": "File or Database"
+        }
+      ],
+      "component": {
+        "name": "Iodio, I",
+        "id": 323,
+        "code": "ID",
+        "group": 7,
+        "unit": 16,
+        "sortorder": 8,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "microgrammi",
+        "id": 16,
+        "code": "µg"
+      },
+      "minimum": 2.8,
+      "maximum": 2.8,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "2.8",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833161,
+      "value": 0,
+      "references": [
+        {
+          "id": 156,
+          "citation": "U.S. Department of Agriculture, Agricultural Research Service. 2007. USDA National Nutrient Database for Standard Reference, Release 21. www.nal.usda.gov/fnic/foodcomp/search/",
+          "title": "U.S. Department of Agriculture, Agricultural Research Service. 2007. USDA National Nutrient Database for Standard Reference, Release 21. Nutrient Data Laboratory Home Page, http://www.ars.usda.gov/nutrientdata",
+          "authors": "U.S. Department of Agriculture, Agricultural Research Service. 2007. USDA National Nutrient Database for Standard Reference, Release 21. Nutrient Data Laboratory Home Page, http://www.ars.usda.gov/nutrientdata",
+          "typeDescriptor": "Webpage"
+        }
+      ],
+      "component": {
+        "name": "Beta-carotene",
+        "id": 45,
+        "code": "CARTB",
+        "group": 6,
+        "unit": 16,
+        "sortorder": 5,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "microgrammi",
+        "id": 16,
+        "code": "µg"
+      },
+      "minimum": 0,
+      "maximum": 0,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "AR",
+      "contributingvalues": "0",
+      "contributingvaluetypes": "AR",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833163,
+      "value": 5,
+      "references": [
+        {
+          "id": 18,
+          "citation": "Haco AG, Gümlingen, Schweiz",
+          "title": "Unterlagen von Haco AG, Gümlingen, Schweiz",
+          "authors": "Haco AG, Gümlingen, Schweiz",
+          "typeDescriptor": "Reference type not known"
+        }
+      ],
+      "component": {
+        "name": "Colesterolo",
+        "id": 60,
+        "code": "CHORL",
+        "group": 5,
+        "unit": 8,
+        "sortorder": 4,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "milligrammi",
+        "id": 8,
+        "code": "mg"
+      },
+      "minimum": 5,
+      "maximum": 5,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "LT",
+      "contributingvalues": "5",
+      "contributingvaluetypes": "LT",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833166,
+      "value": null,
+      "references": [
+        {
+          "id": 5,
+          "citation": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "title": "Unterlagen von Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "authors": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "typeDescriptor": "File or Database"
+        }
+      ],
+      "component": {
+        "name": "Zinco, Zn",
+        "id": 490,
+        "code": "ZN",
+        "group": 7,
+        "unit": 8,
+        "sortorder": 9,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "milligrammi",
+        "id": 8,
+        "code": "mg"
+      },
+      "minimum": null,
+      "maximum": null,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "TR",
+      "contributingvalues": null,
+      "contributingvaluetypes": "TR",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833157,
+      "value": null,
+      "references": [
+        {
+          "id": 5,
+          "citation": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "title": "Unterlagen von Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "authors": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "typeDescriptor": "File or Database"
+        }
+      ],
+      "component": {
+        "name": "Fibre alimentari",
+        "id": 295,
+        "code": "FIBT",
+        "group": 2,
+        "unit": 3,
+        "sortorder": 3,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "grammi",
+        "id": 3,
+        "code": "g"
+      },
+      "minimum": null,
+      "maximum": null,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "TR",
+      "contributingvalues": null,
+      "contributingvaluetypes": "TR",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833156,
+      "value": null,
+      "references": [
+        {
+          "id": 5,
+          "citation": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "title": "Unterlagen von Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "authors": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "typeDescriptor": "File or Database"
+        }
+      ],
+      "component": {
+        "name": "Ferro, Fe",
+        "id": 289,
+        "code": "FE",
+        "group": 7,
+        "unit": 8,
+        "sortorder": 7,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "milligrammi",
+        "id": 8,
+        "code": "mg"
+      },
+      "minimum": null,
+      "maximum": null,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "TR",
+      "contributingvalues": null,
+      "contributingvaluetypes": "TR",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833158,
+      "value": null,
+      "references": [
+        {
+          "id": 5,
+          "citation": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "title": "Unterlagen von Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "authors": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "typeDescriptor": "File or Database"
+        }
+      ],
+      "component": {
+        "name": "Vitamina B1 (tiamina)",
+        "id": 455,
+        "code": "THIA",
+        "group": 6,
+        "unit": 8,
+        "sortorder": 6,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "milligrammi",
+        "id": 8,
+        "code": "mg"
+      },
+      "minimum": null,
+      "maximum": null,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "TR",
+      "contributingvalues": null,
+      "contributingvaluetypes": "TR",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833145,
+      "value": 5,
+      "references": [
+        {
+          "id": 5,
+          "citation": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "title": "Unterlagen von Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "authors": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "typeDescriptor": "File or Database"
+        }
+      ],
+      "component": {
+        "name": "Fosforo, P",
+        "id": 385,
+        "code": "P",
+        "group": 7,
+        "unit": 8,
+        "sortorder": 6,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "milligrammi",
+        "id": 8,
+        "code": "mg"
+      },
+      "minimum": 5,
+      "maximum": 5,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "5",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833144,
+      "value": 11,
+      "references": [
+        {
+          "id": 9,
+          "citation": "Bundeslebensmittelschlüssel, Karlsruhe, Deutschland",
+          "title": "Unterlagen von Bundeslebensmittelschlüssel, Karlsruhe, Deutschland",
+          "authors": "Bundeslebensmittelschlüssel, Karlsruhe, Deutschland",
+          "typeDescriptor": "File or Database"
+        }
+      ],
+      "component": {
+        "name": "Magnesio, Mg",
+        "id": 352,
+        "code": "MG",
+        "group": 7,
+        "unit": 8,
+        "sortorder": 5,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "milligrammi",
+        "id": 8,
+        "code": "mg"
+      },
+      "minimum": 11,
+      "maximum": 11,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "11",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833147,
+      "value": 0,
+      "references": [
+        {
+          "id": 5,
+          "citation": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "title": "Unterlagen von Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "authors": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "typeDescriptor": "File or Database"
+        }
+      ],
+      "component": {
+        "name": "Vitamina D (calciferolo)",
+        "id": 478,
+        "code": "VITD",
+        "group": 6,
+        "unit": 16,
+        "sortorder": 14,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "microgrammi",
+        "id": 16,
+        "code": "µg"
+      },
+      "minimum": 0,
+      "maximum": 0,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "0",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833146,
+      "value": 0,
+      "references": [
+        {
+          "id": 5,
+          "citation": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "title": "Unterlagen von Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "authors": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "typeDescriptor": "File or Database"
+        }
+      ],
+      "component": {
+        "name": "Vitamina C (acido ascorbico)",
+        "id": 477,
+        "code": "VITC",
+        "group": 6,
+        "unit": 8,
+        "sortorder": 13,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "milligrammi",
+        "id": 8,
+        "code": "mg"
+      },
+      "minimum": 0,
+      "maximum": 0,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "0",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833151,
+      "value": 0.3,
+      "references": [
+        {
+          "id": 18,
+          "citation": "Haco AG, Gümlingen, Schweiz",
+          "title": "Unterlagen von Haco AG, Gümlingen, Schweiz",
+          "authors": "Haco AG, Gümlingen, Schweiz",
+          "typeDescriptor": "Reference type not known"
+        }
+      ],
+      "component": {
+        "name": "Proteine",
+        "id": 15478,
+        "code": "PROT625",
+        "group": 2,
+        "unit": 3,
+        "sortorder": 5,
+        "componentsets": [
+          1,
+          2,
+          3
+        ]
+      },
+      "unit": {
+        "name": "grammi",
+        "id": 3,
+        "code": "g"
+      },
+      "minimum": 0.266666666666667,
+      "maximum": 0.266666666666667,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "0.266666666666667",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833150,
+      "value": 0.1,
+      "references": [
+        {
+          "id": 18,
+          "citation": "Haco AG, Gümlingen, Schweiz",
+          "title": "Unterlagen von Haco AG, Gümlingen, Schweiz",
+          "authors": "Haco AG, Gümlingen, Schweiz",
+          "typeDescriptor": "Reference type not known"
+        }
+      ],
+      "component": {
+        "name": "Acidi grassi, polinsaturi",
+        "id": 267,
+        "code": "FAPU",
+        "group": 5,
+        "unit": 3,
+        "sortorder": 3,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "grammi",
+        "id": 3,
+        "code": "g"
+      },
+      "minimum": 0.09,
+      "maximum": 0.09,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "0.09",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833136,
+      "value": 21,
+      "references": [],
+      "component": {
+        "name": "Energia, kilojoules",
+        "id": 86,
+        "code": "ENERCJ",
+        "group": 1,
+        "unit": 6,
+        "sortorder": 2,
+        "componentsets": [
+          1,
+          2,
+          3
+        ]
+      },
+      "unit": {
+        "name": "chilojoule (familiare: joule)",
+        "id": 6,
+        "code": "kJ"
+      },
+      "minimum": null,
+      "maximum": null,
+      "n": 0,
+      "contrMethodTypes": null,
+      "valueTypeCode": "BE",
+      "contributingvalues": null,
+      "contributingvaluetypes": null,
+      "methodIndicatorCode": "MI0711",
+      "containformula": true,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "S"
+    },
+    {
+      "id": 5833139,
+      "value": 0.01,
+      "references": [
+        {
+          "id": 5,
+          "citation": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "title": "Unterlagen von Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "authors": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "typeDescriptor": "File or Database"
+        }
+      ],
+      "component": {
+        "name": "Vitamina B6 (piridossina)",
+        "id": 476,
+        "code": "VITB6",
+        "group": 6,
+        "unit": 8,
+        "sortorder": 8,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "milligrammi",
+        "id": 8,
+        "code": "mg"
+      },
+      "minimum": 0.01,
+      "maximum": 0.01,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "0.01",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833138,
+      "value": 0.01,
+      "references": [
+        {
+          "id": 5,
+          "citation": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "title": "Unterlagen von Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "authors": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "typeDescriptor": "File or Database"
+        }
+      ],
+      "component": {
+        "name": "Vitamina B2 (riboflavina)",
+        "id": 422,
+        "code": "RIBF",
+        "group": 6,
+        "unit": 8,
+        "sortorder": 7,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "milligrammi",
+        "id": 8,
+        "code": "mg"
+      },
+      "minimum": 0.01,
+      "maximum": 0.01,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "0.01",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833141,
+      "value": 6,
+      "references": [
+        {
+          "id": 5,
+          "citation": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "title": "Unterlagen von Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "authors": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "typeDescriptor": "File or Database"
+        }
+      ],
+      "component": {
+        "name": "Calcio, Ca",
+        "id": 34,
+        "code": "CA",
+        "group": 7,
+        "unit": 8,
+        "sortorder": 4,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "milligrammi",
+        "id": 8,
+        "code": "mg"
+      },
+      "minimum": 6,
+      "maximum": 6,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "6",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833140,
+      "value": 0,
+      "references": [
+        {
+          "id": 5,
+          "citation": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "title": "Unterlagen von Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "authors": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "typeDescriptor": "File or Database"
+        }
+      ],
+      "component": {
+        "name": "Alcool",
+        "id": 11,
+        "code": "ALC",
+        "group": 2,
+        "unit": 3,
+        "sortorder": 7,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "grammi",
+        "id": 3,
+        "code": "g"
+      },
+      "minimum": 0,
+      "maximum": 0,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "0",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833143,
+      "value": 10,
+      "references": [
+        {
+          "id": 5,
+          "citation": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "title": "Unterlagen von Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "authors": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "typeDescriptor": "File or Database"
+        }
+      ],
+      "component": {
+        "name": "Potassio, K",
+        "id": 330,
+        "code": "K",
+        "group": 7,
+        "unit": 8,
+        "sortorder": 1,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "milligrammi",
+        "id": 8,
+        "code": "mg"
+      },
+      "minimum": 10,
+      "maximum": 10,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "10",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833142,
+      "value": 23,
+      "references": [
+        {
+          "id": 5,
+          "citation": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "title": "Unterlagen von Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "authors": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "typeDescriptor": "File or Database"
+        }
+      ],
+      "component": {
+        "name": "Folati",
+        "id": 296,
+        "code": "FOL",
+        "group": 6,
+        "unit": 16,
+        "sortorder": 11,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "microgrammi",
+        "id": 16,
+        "code": "µg"
+      },
+      "minimum": 23,
+      "maximum": 23,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "23",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833131,
+      "value": 0.1,
+      "references": [
+        {
+          "id": 18,
+          "citation": "Haco AG, Gümlingen, Schweiz",
+          "title": "Unterlagen von Haco AG, Gümlingen, Schweiz",
+          "authors": "Haco AG, Gümlingen, Schweiz",
+          "typeDescriptor": "Reference type not known"
+        }
+      ],
+      "component": {
+        "name": "Acidi grassi, saturi",
+        "id": 279,
+        "code": "FASAT",
+        "group": 5,
+        "unit": 3,
+        "sortorder": 1,
+        "componentsets": [
+          1,
+          2,
+          3
+        ]
+      },
+      "unit": {
+        "name": "grammi",
+        "id": 3,
+        "code": "g"
+      },
+      "minimum": 0.1,
+      "maximum": 0.1,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "0.1",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833133,
+      "value": 0,
+      "references": [],
+      "component": {
+        "name": "Vitamine A RE",
+        "id": 15623,
+        "code": "VITARE",
+        "group": 6,
+        "unit": 15,
+        "sortorder": 1,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "Retinolo equivalenti",
+        "id": 15,
+        "code": "µg-RE"
+      },
+      "minimum": null,
+      "maximum": null,
+      "n": 0,
+      "contrMethodTypes": null,
+      "valueTypeCode": "BE",
+      "contributingvalues": null,
+      "contributingvaluetypes": null,
+      "methodIndicatorCode": "MICHVITARE",
+      "containformula": true,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "S"
+    },
+    {
+      "id": 5833132,
+      "value": 0.18,
+      "references": [
+        {
+          "id": 9,
+          "citation": "Bundeslebensmittelschlüssel, Karlsruhe, Deutschland",
+          "title": "Unterlagen von Bundeslebensmittelschlüssel, Karlsruhe, Deutschland",
+          "authors": "Bundeslebensmittelschlüssel, Karlsruhe, Deutschland",
+          "typeDescriptor": "File or Database"
+        }
+      ],
+      "component": {
+        "name": "Acido pantotenico",
+        "id": 386,
+        "code": "PANTAC",
+        "group": 6,
+        "unit": 8,
+        "sortorder": 12,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "milligrammi",
+        "id": 8,
+        "code": "mg"
+      },
+      "minimum": 0.179,
+      "maximum": 0.179,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "0.179",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    },
+    {
+      "id": 5833135,
+      "value": 1,
+      "references": [],
+      "component": {
+        "name": "Sale, NaCl",
+        "id": 368,
+        "code": "NACL",
+        "group": 2,
+        "unit": 3,
+        "sortorder": 6,
+        "componentsets": [
+          1,
+          2,
+          3
+        ]
+      },
+      "unit": {
+        "name": "grammi",
+        "id": 3,
+        "code": "g"
+      },
+      "minimum": null,
+      "maximum": null,
+      "n": 0,
+      "contrMethodTypes": null,
+      "valueTypeCode": "BE",
+      "contributingvalues": null,
+      "contributingvaluetypes": null,
+      "methodIndicatorCode": "MI0120",
+      "containformula": true,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "S"
+    },
+    {
+      "id": 5833134,
+      "value": 0,
+      "references": [],
+      "component": {
+        "name": "Vitamine A RAE",
+        "id": 15624,
+        "code": "VITARAE",
+        "group": 6,
+        "unit": 15,
+        "sortorder": 2,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "Retinolo equivalenti",
+        "id": 15,
+        "code": "µg-RE"
+      },
+      "minimum": null,
+      "maximum": null,
+      "n": 0,
+      "contrMethodTypes": null,
+      "valueTypeCode": "BE",
+      "contributingvalues": null,
+      "contributingvaluetypes": null,
+      "methodIndicatorCode": "MICHVITARAE",
+      "containformula": true,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "S"
+    },
+    {
+      "id": 5833167,
+      "value": 0,
+      "references": [
+        {
+          "id": 51,
+          "citation": "SwissFIR, DAGRL, ETH Zürich, Schweiz",
+          "title": "Unterlagen von SwissFIR, DAGRL, ETH Zürich, Schweiz",
+          "authors": "SwissFIR, DAGRL, ETH Zürich, Schweiz",
+          "typeDescriptor": "Other reference type"
+        }
+      ],
+      "component": {
+        "name": "Retinolo",
+        "id": 417,
+        "code": "RETOL",
+        "group": 6,
+        "unit": 16,
+        "sortorder": 3,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "microgrammi",
+        "id": 16,
+        "code": "µg"
+      },
+      "minimum": 0,
+      "maximum": 0,
+      "n": 1,
+      "contrMethodTypes": "P",
+      "valueTypeCode": "BE",
+      "contributingvalues": "0",
+      "contributingvaluetypes": "BE",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "P"
+    },
+    {
+      "id": 5833148,
+      "value": 0,
+      "references": [
+        {
+          "id": 5,
+          "citation": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "title": "Unterlagen von Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "authors": "Banca dati di composizione degli alimenti per studi epidemiologici in Italia",
+          "typeDescriptor": "File or Database"
+        }
+      ],
+      "component": {
+        "name": "Attività di vitamina E",
+        "id": 479,
+        "code": "VITE",
+        "group": 6,
+        "unit": 8,
+        "sortorder": 15,
+        "componentsets": [
+          1,
+          2
+        ]
+      },
+      "unit": {
+        "name": "milligrammi",
+        "id": 8,
+        "code": "mg"
+      },
+      "minimum": 0,
+      "maximum": 0,
+      "n": 1,
+      "contrMethodTypes": "X",
+      "valueTypeCode": "X",
+      "contributingvalues": "0",
+      "contributingvaluetypes": "X",
+      "methodIndicatorCode": "MIR003",
+      "containformula": false,
+      "isborrowed": false,
+      "isrescaled": false,
+      "isfixed": false,
+      "methodtypecode": "X"
+    }
+  ],
+  "matrixunitcode": "W",
+  "specificgravity": 1,
+  "yieldfactor": null,
+  "foodid": 665
+}

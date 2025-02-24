@@ -2,26 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.bgGradient{
+  background-image:linear-gradient(to left, 
+    #252525 0% 20%, 
+    #f5f5f5 20% 40%,
+    #00b7b7 40% 60%,
+    #b70000 60% 80%,
+    #fcd50e 80% 100%
+  );
 }
