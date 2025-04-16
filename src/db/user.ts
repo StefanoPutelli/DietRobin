@@ -2,7 +2,6 @@ import connectDB from "@/lib/connectDB";
 import Client from "@/models/Users/Client";
 import Nutritionist from "@/models/Users/Nutritionist";
 import Diet from "@/models/Diet/Diet";
-import path from "path";
 
 export type UserRole = "client" | "nutritionist";
 
@@ -70,7 +69,7 @@ export async function getUserRole(mail: string | null | undefined) {
         }
         return { error: "user not found" };
     } catch (e) {
-        return { error: "db error" };
+        return { error: "db error: " + e };
     }
 }
 
@@ -82,7 +81,7 @@ export async function getClientUserInfo(id: number) {
         });
         return userInfo;
     } catch (e) {
-        return { error: "db error" };
+        return { error: "db error: " + e };
     }
 }
 
@@ -94,7 +93,7 @@ export async function getClientUserInfoByEmail(email: string) {
         });
         return userInfo;
     } catch (e) {
-        return { error: "db error" };
+        return { error: "db error: " + e };
     }
 }
 
@@ -106,7 +105,7 @@ export async function deleteClientUser(id: number) {
         });
         return userInfo;
     } catch (e) {
-        return { error: "db error" };
+        return { error: "db error: " + e };
     }
 }
 
@@ -164,7 +163,7 @@ export async function deleteNutritionistUser(id: number) {
         });
         return userInfo;
     } catch (e) {
-        return { error: "db error" };
+        return { error: "db error: " + e };
     }
 }
 
@@ -181,7 +180,7 @@ export async function addClientToNutritionist(nutritionistId: string, client: an
         await nutritionist.save();
         return nutritionist;
     } catch (e) {
-        return { error: "db error" };
+        return { error: "db error: " + e };
     }
 }
 
@@ -204,7 +203,7 @@ export async function addDietToClient(clientId: number, dietName: string, start:
         await client.save();
         return diet;
     } catch (e) {
-        return { error: "db error" };
+        return { error: "db error: " + e };
     }
 }
 
@@ -229,7 +228,7 @@ export async function deleteDietToClient(clientId: string, dietId: string) {
         await client.save();
         return client;
     } catch (e) {
-        return { error: "db error" };
+        return { error: "db error: " + e };
     }
 }
 
@@ -248,6 +247,6 @@ export async function DeleteClientFromNutritionist(nutritionistId: string, clien
         await nutritionist.save();
         return nutritionist;
     } catch (e) {
-        return { error: "db error" };
+        return { error: "db error: " + e };
     }
 }

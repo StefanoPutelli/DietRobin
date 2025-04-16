@@ -38,7 +38,7 @@ export function drawFlower(ctx: CanvasRenderingContext2D,
     independence: number = 0.1, spacing: number = 0.05,
     count: number = 50): void {
     // adjust the radius so will have roughly the same size regardless of magnitude
-    let current = { ...circle };
+    const current = { ...circle };
     current.radius /= (magnitude + 1);
     
 

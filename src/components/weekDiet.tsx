@@ -1,11 +1,11 @@
 'use client'
 import { useSearchParams } from "next/navigation";
-import React, { use } from "react"
+import React from "react"
 import { useEffect, useState, useRef } from 'react';
 import SearchBar from "./SearchBar";
 
 const days = ['Lunedì', 'Martedì', 'Mercoledì', 'Giovedì', 'Venerdì', 'Sabato', 'Domenica'];
-const meals = ['Colazione', 'Spuntino', 'Pranzo', 'Merenda', 'Cena'];
+// const meals = ['Colazione', 'Spuntino', 'Pranzo', 'Merenda', 'Cena'];
 
 export default function WeekDiet({readOnly = false}: {readOnly?: boolean}) {
 
@@ -33,7 +33,7 @@ export default function WeekDiet({readOnly = false}: {readOnly?: boolean}) {
         if (params.has('dietID')) {
             setdietID(params.get('dietID'));
         }
-    }, []);
+    }, [params]);
 
     useEffect(() => {
         if (dietID) {

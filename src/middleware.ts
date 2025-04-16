@@ -1,5 +1,5 @@
 import { NextResponse, NextRequest } from "next/server"
-import { authOptionsClient, authOptionsNutritionist } from "@/lib/auth";
+// import { authOptionsClient, authOptionsNutritionist } from "@/lib/auth";
 
 const notProtected = [
   '/login',

@@ -42,7 +42,7 @@ export default function DietList({ session }: { session: any }) {
                 setMainLoading(false)
                 console.error('Error:', error)
             })
-    }, [])
+    }, [session])
 
     return (
         <>

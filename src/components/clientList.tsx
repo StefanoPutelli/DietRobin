@@ -37,7 +37,7 @@ export default function ClientList({ session }: { session: any }) {
                 setMainLoading(false)
                 console.error('Error:', error)
             })
-    }, [])
+    }, [session])
 
     async function handleSubmitNewClient(e: React.FormEvent<HTMLFormElement>) {
         e.preventDefault();

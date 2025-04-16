@@ -50,7 +50,7 @@ export default function FoodDetailsPage() {
     
 
     const sections = [
-        <div className="w-full flex flex-col xl:flex-row h-full gap-[1.5em]">
+        <div className="w-full flex flex-col xl:flex-row h-full gap-[1.5em]" key={1}>
             <div className="flex-1 flex flex-col overflow-hidden p-[2px]">
                 <div className="w-full mb-[1em] ">
                     <SearchBar custResult={true} setCustResult={setCustResult} setCustLoading={setCustLoading} />
@@ -75,7 +75,7 @@ export default function FoodDetailsPage() {
                 </div>
             </div>
         </div>,
-        <div className="w-full flex flex-col xl:flex-row h-full gap-[1.5em]">
+        <div className="w-full flex flex-col xl:flex-row h-full gap-[1.5em]" key={2}>
             <div className="flex-1 flex flex-col overflow-hidden p-[2px]">
                 <div id="foodResultContainer" className="card w-full flex-1 glass overflow-y-scroll">
                     {recentFoodList.map((result: foodInterface, index: number) => {
