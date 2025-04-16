@@ -1,6 +1,7 @@
 import connectDB from "@/lib/connectDB";
 import Diet from "@/models/Diet/Diet";
 import Meal from "@/models/Diet/Meal";
+import Client from "@/models/Users/Client";
 
 export async function getDietInfo(dietID: string) {
     try {
@@ -13,6 +14,16 @@ export async function getDietInfo(dietID: string) {
         return { error: e };
     }
 
+}
+
+export async function getClientDiets(clientID: string) {
+    try {
+        await connectDB();
+        const client = await Client.findOne({ _id: clientID }).populate('diet');
+        return client.diet;
+    } catch (e) {
+        return { error: e };
+    }
 }
 
 export async function addMealToDiet(dietID: string, mealDay: number, mealName: string, foods: { foodID: string, name: string, quantity: number }[]) {
@@ -32,6 +43,7 @@ export async function addMealToDiet(dietID: string, mealDay: number, mealName: s
         await meal.save();
         dietInfo.meals.push(meal);
         await dietInfo.save();
+        dietInfo.populate('meals');
         return dietInfo;
     } catch (e) {
         return { error: e };
@@ -78,6 +90,7 @@ export async function deleteMeal(dietID: string, mealID: string){
         }
         dietInfo.meals = dietInfo.meals.filter((meal: any) => !meal.equals(mealID));
         await dietInfo.save();
+        dietInfo.populate('meals');
         return dietInfo;
     } catch (e) {
         return { error: e };

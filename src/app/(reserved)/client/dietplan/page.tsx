@@ -2,11 +2,11 @@
 import WeekDiet from "@/components/weekDiet";
 
 
-export default async function Clients() {
+export default async function Diet() {
 
     return (
         <>
-            <WeekDiet readOnly={false}/>
+            <WeekDiet readOnly={true}/>
         </>
     )
 }

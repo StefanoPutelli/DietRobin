@@ -7,7 +7,7 @@ import SearchBar from "./SearchBar";
 const days = ['Lunedì', 'Martedì', 'Mercoledì', 'Giovedì', 'Venerdì', 'Sabato', 'Domenica'];
 const meals = ['Colazione', 'Spuntino', 'Pranzo', 'Merenda', 'Cena'];
 
-export default function WeekDiet({ session }: { session: any }) {
+export default function WeekDiet({readOnly = false}: {readOnly?: boolean}) {
 
     const params = useSearchParams();
     const [dietID, setdietID] = useState<string | null>(null);
@@ -315,7 +315,7 @@ export default function WeekDiet({ session }: { session: any }) {
                                     <div className="flex justify-between items-center">
                                         <h2 className="card-title">{day}</h2>
                                         <div className="flex items-center gap-[0.5em]">
-                                            <button className="btn min-h-0 h-[2.5em] btn-primary btn-outline p-[0.6em] aspect-square z-10" onClick={
+                                            {!readOnly && <button className="btn min-h-0 h-[2.5em] btn-primary btn-outline p-[0.6em] aspect-square z-10" onClick={
                                                 () => {
                                                     selectedMeal.current = {
                                                         day: index,
@@ -328,7 +328,7 @@ export default function WeekDiet({ session }: { session: any }) {
                                                 <svg className="h-4 w-4 text-primary-content" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
                                                 </svg>
-                                            </button>
+                                            </button>}
                                             {/* <button className="btn min-h-0 h-[2.5em] btn-primary btn-outline p-[0.6em] aspect-square" onClick={() => {
                                                 const acc = dietDayList.current?.getElementsByClassName('meal-accordion-' + day);
                                                 if (acc) {
@@ -350,7 +350,7 @@ export default function WeekDiet({ session }: { session: any }) {
 
                                                 <div className="collapse-title text-xl font-medium flex items-center justify-between gap-[0.5em]">
                                                     {meal.name}
-                                                    <div className="flex items-center gap-[0.3em]">
+                                                    {!readOnly && <div className="flex items-center gap-[0.3em]">
                                                         <button className="btn min-h-0 h-[2.5em] btn-primary btn-outline p-[0.6em] aspect-square z-10" onClick={
                                                             () => {
                                                                 selectedMeal.current = {
@@ -370,7 +370,7 @@ export default function WeekDiet({ session }: { session: any }) {
                                                         }}>
                                                             <svg className="h-5 w-5 text-primary-content" width="24" height="24" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <line x1="4" y1="7" x2="20" y2="7" />  <line x1="10" y1="11" x2="10" y2="17" />  <line x1="14" y1="11" x2="14" y2="17" />  <path d="M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2 -2l1 -12" />  <path d="M9 7v-3a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v3" /></svg>
                                                         </button>
-                                                    </div>
+                                                    </div>}
                                                 </div>
                                                 <div className="collapse-content">
                                                     <div className="flex flex-col gap-[10px] justify-between items-center">

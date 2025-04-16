@@ -1,11 +1,11 @@
 import { NextResponse } from 'next/server';
-import { getDietInfo } from '@/db/diet';
+import { getClientDiets } from '@/db/diet';
 import { addDietToClient, deleteDietToClient } from '@/db/user';
 
 export async function GET(request: Request) {
     const { searchParams } = new URL(request.url);
     const clientID = searchParams.get('clientID') || '';
-    const dietInfo = await getDietInfo(clientID);
+    const dietInfo = await getClientDiets(clientID);
     return NextResponse.json(dietInfo);
 
 }
