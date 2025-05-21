@@ -3,6 +3,7 @@ import { NextRequest, NextResponse } from "next/server"
 
 export function GET(request: NextRequest) {
     const callbackUrl = request.cookies.get('authjs.callback-url')?.value || '';
+    console.log('callbackUrl', callbackUrl);
     const url = new URL(callbackUrl);
     const role = url.pathname.split('/')[1];
     if(role === 'client') {
@@ -16,6 +17,7 @@ export function GET(request: NextRequest) {
 
 export function POST(request: NextRequest) {
     const callbackUrl = request.cookies.get('authjs.callback-url')?.value || '';
+    console.log('callbackUrl', callbackUrl);
     const url = new URL(callbackUrl);
     const role = url.pathname.split('/')[1];
     if(role === 'client') {
