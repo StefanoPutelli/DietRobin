@@ -2,7 +2,8 @@ import { authOptionsClient, authOptionsNutritionist } from "@/lib/auth"
 import { NextRequest, NextResponse } from "next/server" 
 
 export function GET(request: NextRequest) {
-    const callbackUrl = request.cookies.get('authjs.callback-url')?.value || '';
+    console.log(request.cookies);
+    const callbackUrl = request.cookies.get('authjs.callback-url')?.value || process.env.NEXTAUTH_URL as string;
     console.log('callbackUrl', callbackUrl);
     const url = new URL(callbackUrl);
     const role = url.pathname.split('/')[1];
@@ -16,7 +17,7 @@ export function GET(request: NextRequest) {
 }
 
 export function POST(request: NextRequest) {
-    const callbackUrl = request.cookies.get('authjs.callback-url')?.value || '';
+    const callbackUrl = request.cookies.get('authjs.callback-url')?.value || process.env.NEXTAUTH_URL as string;
     console.log('callbackUrl', callbackUrl);
     const url = new URL(callbackUrl);
     const role = url.pathname.split('/')[1];
